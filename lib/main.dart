@@ -3,7 +3,7 @@ import 'package:spotifyapp/home_page.dart';
 
 
 
-// Import the HomePage
+
 
 void main() {
   runApp(const MyApp());
@@ -19,10 +19,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
      darkTheme: ThemeData.dark(),
       home: const HomePage()
-         // Use const for better performance
+         
       
     );
-  // Set initial screen
-    // Example screen
+  
   }
 }
